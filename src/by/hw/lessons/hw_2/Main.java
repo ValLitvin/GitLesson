@@ -1,7 +1,5 @@
 package by.hw.lessons.hw_2;
 
-import java.nio.file.FileSystemNotFoundException;
-
 public class Main {
 
     public static void main(String[] args) {

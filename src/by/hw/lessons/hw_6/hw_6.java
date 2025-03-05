@@ -8,13 +8,12 @@ public class hw_6 {
             massive[i] = i;
             System.out.println("Элемент [" + i + "]" + " = " + massive[i]);
         }
+    System.out.println("--------------------------");
         for (int i = 0; i < massive.length; i++) {
             if (i % 2 != 0) {
                 massive[i] = 0;
             }
-//            if (i % 2 == 1) {
-//                massive[i] = 0;
-//            }
+            System.out.println("Элемент [" + i + "]" + " = " + massive[i]);
         }
     System.out.println("--------------------------");
     // 2.

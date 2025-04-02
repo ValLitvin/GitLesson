@@ -42,4 +42,3 @@ package by.hw.lessons.hw_11;
             System.out.println("------------------------------");
         }
     }
-

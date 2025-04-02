@@ -22,8 +22,7 @@ public class Animal {
         }
 
         public String toString() {
-            return String.format("Окрас: , Продолжительность жизни: , Питание: ",
-                    color, MaxLifeExpectancy, TypeOfFood);
+            return "окрас = " + color + ", максимальная продолжительность жизни = " + MaxLifeExpectancy + ", тип еды = " + TypeOfFood;
         }
         @Override
         public boolean equals(Object o) {

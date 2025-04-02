@@ -16,7 +16,7 @@ public class Main {
 
         ZOO zoo = new ZOO();
 
-        //Добавляем животных в зоопарк
+
         zoo.addAnimal(dogs[0]);
         zoo.addAnimal(dogs[1]);
         zoo.addAnimal(dogs[2]);
@@ -24,7 +24,7 @@ public class Main {
         zoo.addAnimal(birds[1]);
         zoo.addAnimal(birds[2]);
 
-        System.out.println("=== Демонстрация поведения собаки ===");
+        System.out.println("Демонстрация поведения собаки");
         dogs[0].bark();
         dogs[0].bite();
         dogs[0].run();
@@ -33,7 +33,7 @@ public class Main {
 
         System.out.println("------------------------------"); // строка для разделения
 
-        System.out.println("=== Демонстрация поведения птицы ===");
+        System.out.println("Демонстрация поведения птицы");
         birds[0].makeSound();
         birds[0].peck();
         birds[0].incubate();

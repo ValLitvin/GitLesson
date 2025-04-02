@@ -8,8 +8,6 @@ interface Robot {
     }
 
     void turnOn();
-
     void turnOff();
-
     void uniquePossibility();
 }

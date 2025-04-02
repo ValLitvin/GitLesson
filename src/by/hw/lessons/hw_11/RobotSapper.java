@@ -1,6 +1,6 @@
 package by.hw.lessons.hw_11;
 
- class RobotSapper implements Robot {
+ class RobotSapper implements RobotEngineer {
      private String model;
      private double powerConsumption;
      private String mineClearance;

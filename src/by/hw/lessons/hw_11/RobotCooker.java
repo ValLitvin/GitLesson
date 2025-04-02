@@ -1,6 +1,6 @@
 package by.hw.lessons.hw_11;
 
-    public abstract class RobotCooker implements Robot {
+    public class RobotCooker implements Robot {
     private String model;
     private double powerConsumption;
     private String countryOfOrigin;
@@ -14,6 +14,11 @@ package by.hw.lessons.hw_11;
         this.cookingUnit = cookingUnit;
         this.isOn = false;
     }
+
+        @Override
+        public String createItem() {
+            return "";
+        }
 
         @Override
         public void turnOn() {

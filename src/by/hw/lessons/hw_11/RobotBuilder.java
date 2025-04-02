@@ -1,6 +1,6 @@
 package by.hw.lessons.hw_11;
 
-public class RobotBuilder implements  Robot {
+public class RobotBuilder implements  RobotEngineer {
     private String model;
     private double powerConsumption;
     private String countryOfOrigin;

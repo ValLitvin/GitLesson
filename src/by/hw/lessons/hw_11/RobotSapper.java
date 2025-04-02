@@ -34,7 +34,7 @@ package by.hw.lessons.hw_11;
         } else {
             System.out.println("Робот-сапёр выключен");
         }
-    }
+     }
 
     @Override
     public String createItem() {
@@ -45,7 +45,9 @@ package by.hw.lessons.hw_11;
     @Override
     public void repairRobot() {
          System.out.println("Робот-сапёр отремонтирован");
+         System.out.println("------------------------------");
         }
+
     }
 
 

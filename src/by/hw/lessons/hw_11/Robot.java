@@ -5,6 +5,7 @@ interface Robot {
 
     default void repairRobot() {
         System.out.println("Робот отремонтирован.");
+        System.out.println("------------------------------");
     }
 
     void turnOn();

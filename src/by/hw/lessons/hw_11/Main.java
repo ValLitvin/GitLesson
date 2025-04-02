@@ -15,13 +15,14 @@ public class Main {
         RobotEngineer[] engineers = {sapper, builder};
         RobotSapper[] deminers = {sapper};
 
+        System.out.println("------------------------------");
         System.out.println("Выставка всех роботов:");
         for (Robot robot : allRobots) {
             robot.turnOn();
             robot.uniquePossibility();
             robot.turnOff();
         }
-
+        System.out.println("------------------------------");
         System.out.println("Выставка роботов-инженеров:");
         for (RobotEngineer engineer : engineers) {
             engineer.turnOn();
@@ -29,7 +30,7 @@ public class Main {
             engineer.createItem();
             engineer.turnOff();
         }
-
+        System.out.println("------------------------------");
         System.out.println("Выставка роботов-сапёров:");
         for (RobotSapper sapperRobot : deminers) {
             sapperRobot.turnOn();

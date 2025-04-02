@@ -35,10 +35,11 @@ package by.hw.lessons.hw_11;
         @Override
         public void uniquePossibility() {
             if (isOn){
-                System.out.println("Робот готовит");
+                System.out.println("Робот-повар готовит");
             } else {
-                System.out.println("Робот выключен");
+                System.out.println("Робот-повар выключен");
             }
+            System.out.println("------------------------------");
         }
     }
 

@@ -42,4 +42,5 @@ public RobotBuilder(String model, double powerConsumption, String countryOfOrigi
         System.out.println("Робот-строитель создаёт бетон");
         return null;
     }
+
 }

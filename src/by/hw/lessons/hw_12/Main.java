@@ -11,7 +11,6 @@ public class Main {
         carGarage.Vehicle(car);
         motorcycleGarage.Vehicle(motorcycle);
 
-
         System.out.println("Транспортное средство в гараже: " + carGarage.getVehicle().getName());
         System.out.println("Разрешен ли въезд: " + carGarage.isEntryPermitted());
 

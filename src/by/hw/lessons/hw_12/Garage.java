@@ -3,7 +3,7 @@ package by.hw.lessons.hw_12;
 public class Garage< T extends  Vehicle > {
     private T Vehicle;
 
-    public  Garage (T Vehicle) {
+    public  void Vehicle (T Vehicle) {
         this.Vehicle = Vehicle;
     }
     public  boolean isEntryPermitted(){

@@ -12,14 +12,7 @@ public class Auto {
     }
 
     public void drive() {
-        for (int i = 0; i < 5; i++) {
-            System.out.println(name + " is driving...");
-            try {
-                Thread.sleep(stopTime);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
+
     }
 
     public void start() {
